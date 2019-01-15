@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextStyleMiddleGreen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/icon_back"
+        android:gravity="center_vertical"
+        android:text="@string/tip_back" />
+
+    <ListView
+        android:id="@+id/lv_device_noti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg" />
+
+</LinearLayout>

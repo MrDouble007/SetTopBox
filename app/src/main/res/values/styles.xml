@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@mipmap/bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CommonDialogTheme" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/colorHalfTransparent</item>
+    </style>
+
+    <style name="InstructionAreaTheme">
+        <item name="android:background">@drawable/rectangle_shape_gray</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="TextStyleSmallGray">
+        <item name="android:textColor">@color/colorTextTitleGray</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="TextStyleMiddleGray">
+        <item name="android:textColor">@color/colorTextTitleGray</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="TextStyleBigGray">
+        <item name="android:textColor">@color/colorTextTitleGray</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextStyleMiddleLightBlue">
+        <item name="android:textColor">@color/colorTextContentLightBlue</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="TextStyleBigLightBlue">
+        <item name="android:textColor">@color/colorTextContentLightBlue</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextStyleBigWhite">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextStyleBigGreen">
+        <item name="android:textColor">@color/colorTextContentGreen</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TextStyleSmallWhite">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="TextStyleMiddleGreen">
+        <item name="android:textColor">@color/colorTextContentGreen</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="TextStyleTimeGray">
+        <item name="android:textColor">@color/colorTextTimeGray</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="TextStyleIncall">
+        <item name="android:textColor">@color/colorIncallGray</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:drawablePadding">10sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+</resources>

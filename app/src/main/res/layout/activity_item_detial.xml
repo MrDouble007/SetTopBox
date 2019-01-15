@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextStyleMiddleGreen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/icon_back"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:text="@string/tip_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="100dp">
+
+        <LinearLayout
+            android:id="@+id/ll_detail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_detail_title"
+                style="@style/TextStyleBigGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_detail_content"
+                style="@style/TextStyleMiddleLightBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp" />
+
+            <TextView
+                android:id="@+id/tv_detail_time"
+                style="@style/TextStyleTimeGray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

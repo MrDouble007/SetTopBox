@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">1号社区</string>
+    <string name="app_des">智慧社区，引领智慧生活</string>
+    <string name="device_status_title">状态:</string>
+    <string name="device_status_unbind_des">绑定房屋可以接收小区通知，查看小区监控视频！</string>
+    <string name="device_status_unbind_name">暂无</string>
+    <string name="device_status_bind_name">%s (业主)</string>
+    <string name="device_status_unbind">未绑定</string>
+    <string name="device_status_bind">已绑定</string>
+    <string name="device_status_bind_add">住宅:</string>
+    <string name="device_bind_title">》 绑定房屋说明 《</string>
+    <string name="device_bind_des1">1.通过手机搜索安装“1号社区”APP</string>
+    <string name="device_bind_des2">2.注册1号社区账号，并做房屋认证</string>
+    <string name="device_bind_des3">3.用1号社区扫描左图二维码，绑定/解绑房屋</string>
+    <string name="device_qrcode_des">扫描二维码绑定房屋</string>
+    <string name="residential_noti">小区通知</string>
+    <string name="residential_watch_dog">小区监控</string>
+    <string name="residential_watch_dog_des">此功能暂未开通，敬请期待！</string>
+    <string name="residential_unbind_tip">您还没有绑定房屋，绑定房屋后才有该权限</string>
+    <string name="residential_no_noti_tip">暂无通知</string>
+    <string name="residential_unbind_confirm">确定</string>
+    <string name="residential_unbind_cancel">取消</string>
+    <string name="loading_tip_common">正在加载，请稍后…</string>
+    <string name="tip_back">返回</string>
+    <string name="incall_dialog_open_door">开门（按确定键）</string>
+    <string name="incall_dialog_open_refuse">拒绝（按返回键）</string>
+    <string name="incall_visitor_come_des">访客请求开门</string>
+    <string name="incall_visitor_hangup">对方已挂断</string>
+    <string name="notice_detail_content">\u3000\u3000%s</string>
+</resources>

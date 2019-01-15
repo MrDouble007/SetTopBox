@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDialogConfirm">#169BD5</color>
+    <color name="colorHalfTransparent">#80000000</color>
+    <color name="colorTextContentLightBlue">#959FCA</color>
+    <color name="colorTextTitleGray">#5D6380</color>
+    <color name="colorTextTimeGray">#70779A</color>
+    <color name="colorTextContentGreen">#21C07B</color>
+    <color name="colorDialogButton">#EEEEEE</color>
+    <color name="colorDialogTitle">#8C8C8C</color>
+    <color name="colorIncallGray">#8F9CCC</color>
+</resources>

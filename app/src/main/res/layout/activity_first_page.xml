@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:paddingBottom="40dp"
+    android:paddingEnd="29dp"
+    android:paddingStart="29dp"
+    android:paddingTop="43dp">
+
+    <LinearLayout
+        android:layout_width="137dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_info"
+        android:orientation="vertical"
+        android:paddingEnd="8dp"
+        android:paddingStart="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_head_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="11dp"
+                android:src="@mipmap/icon_head_unbind" />
+
+            <TextView
+                android:id="@+id/tv_device_owner_name"
+                style="@style/TextStyleBigLightBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_status_unbind_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/device_status_title" />
+
+            <TextView
+                android:id="@+id/tv_device_status"
+                style="@style/TextStyleMiddleGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_shape_gray"
+                android:padding="1dp"
+                android:text="@string/device_status_unbind" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/device_status_bind_add" />
+
+            <TextView
+                android:id="@+id/tv_device_status_des"
+                style="@style/TextStyleMiddleLightBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_status_unbind_des" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/im_qr_code"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@mipmap/bg_qr_code"
+                android:scaleType="centerInside" />
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/device_qrcode_des" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="282dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/space4"
+        android:layout_marginStart="@dimen/space4"
+        android:background="@mipmap/bg_instruction"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyleBigLightBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/device_bind_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:orientation="horizontal"
+            android:paddingEnd="17dp"
+            android:paddingStart="17dp">
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/space10"
+                android:drawableTop="@mipmap/icon_download"
+                android:gravity="center"
+                android:text="@string/device_bind_des1" />
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/space10"
+                android:drawableTop="@mipmap/icon_regist_bind"
+                android:gravity="center"
+                android:text="@string/device_bind_des2" />
+
+            <TextView
+                style="@style/TextStyleSmallGray"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/space10"
+                android:drawableTop="@mipmap/icon_qr_code"
+                android:gravity="center"
+                android:text="@string/device_bind_des3" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="164dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_device_noti"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_shape_noti_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_device_noti"
+                style="@style/TextStyleBigWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/icon_notification"
+                android:gravity="center"
+                android:text="@string/residential_noti" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_device_watch"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/space4"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_shape_watch_selector"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextStyleBigWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:drawableTop="@mipmap/icon_watch"
+                android:text="@string/residential_watch_dog" />
+
+            <TextView
+                style="@style/TextStyleSmallWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/residential_watch_dog_des" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
